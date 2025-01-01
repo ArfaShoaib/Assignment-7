@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
 
 interface Product {
   id: number;
@@ -33,7 +34,7 @@ const ProductDetails = () => {
     <div>
       <h1>{product.title}</h1>
       <p>{product.description}</p>
-      <img src={product.images[0]} alt={product.title} />
+      <Image src={product.images[0]} alt={product.title} />
     </div>
   );
 };
