@@ -23,7 +23,7 @@ const Page = async () => {
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200"
           >
             <blockquote className="text-gray-700 mb-4 italic">
-              "{quote.quote}"  // Changed from 'quotes.qoute'
+              "{quote.quote}"  
             </blockquote>
             <div className="border-t pt-4">
               <p className="text-gray-600 text-sm">
