@@ -2,11 +2,11 @@
 
 import Link from 'next/link'
 import React from 'react'
-import "aos/dist/aos.css";
+
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 px-4 sm:px-6 lg:px-8" data-aos="fade-right">
+    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 px-4 sm:px-6 lg:px-8" >
       <div className="text-center text-white w-full max-w-4xl mx-auto">
         {/* Heading with responsive font sizes and spacing */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
